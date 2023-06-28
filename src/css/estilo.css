@@ -1,0 +1,184 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background-color: rgb(21, 167, 167);
+    color: #000000;
+}
+
+h1{
+    color: #d8e3ec;
+}
+
+body.modo-escuro {
+    background-color: rgb(0, 7, 7);
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .logo,
+header .imagem-botao {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-pokemon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main {
+    padding: 15px;
+}
+
+main .listagem-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-pokemon {
+    background-color: #d8e3ec;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-pokemon:hover {
+    background-color: #96d9d6
+}
+
+.modo-escuro .cartao-hover {
+    background-color: #a8a8a8;
+}
+
+main .cartao-pokemon .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+main .cartao-pokemon .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+
+}
+
+main .cartao-pokemon .gif {
+    width: 90px;
+    height: 90px;
+}
+
+main .cartao-pokemon .tipos {
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-pokemon .tipo {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.Grama {
+    background-color: #7ac74c;
+}
+
+.veneno {
+    background-color: #df67fffb;
+}
+
+.Fogo {
+    background-color: #f55d05;
+}
+
+.Vôo {
+    background-color: #4880fa;
+}
+
+.Água {
+    background-color: #6390f0;
+}
+
+.Inseto {
+    background-color: #77ec34;
+}
+
+.Normal{
+    background-color: rgb(170, 167, 167);
+}
+
+.Tóxico{
+    background-color: rgb(155, 11, 155);
+}
+
+.Elétrico{
+    background-color: yellow;
+}
+
+.Fada{
+    background-color: rgb(211, 113, 170);
+}
+
+.Psíquico{
+    background-color: rgb(221, 25, 162);
+}
+
+.Pedra{
+    background-color: rgb(204, 174, 3);
+}
+
+.Chão{
+    background: linear-gradient(rgba(206, 206, 26, 0.664), rgb(83, 52, 5));
+}
+
+.Escuridão{
+    background-color: #000000;
+    color: #f8fcff;
+}
+
+.Fantasma{
+    background-color: rgb(185, 37, 185);
+}
+
+.Aço{
+    background-color: rgb(114, 126, 194);
+}
+
+.Luta{
+    background-color: rgb(216, 123, 17);
+}
+
+.Gelo{
+    background-color: rgb(9, 209, 245);
+}
+
+.Dragão{
+    background: linear-gradient(rgb(0, 140, 255), ORANGERED);
+    }
+
+main .descricao {
+    max-height: 90px;
+    overflow-y: scroll;
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: center;
+}
